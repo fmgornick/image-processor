@@ -1,0 +1,19 @@
+{
+  "tasks": [
+    {
+      "label": "build",
+      "type": "shell",
+      "command": "cd ${workspaceFolder} && make -j"
+    },
+    {
+      "label": "run",
+      "type": "shell",
+      "command": "cd ${workspaceFolder} && ./image-processor-app data/statue.png canny-edge-detect data/statue-canny.png"
+    },
+    {
+      "label": "clean",
+      "type": "shell",
+      "command": "cd ${workspaceFolder} && make clean && rm -rf image-processor-app.dSYM"
+    }
+  ]
+}
