@@ -1,0 +1,7 @@
+# binaries
+image-processor-app
+*.d
+*.o
+
+# mac stuff
+.DS_Store
